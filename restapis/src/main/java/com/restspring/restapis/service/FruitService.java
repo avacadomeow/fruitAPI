@@ -8,5 +8,5 @@ public interface FruitService {
 	
 	public List<Fruits> getFruits();
 	public Fruits getFruit(long fruitId);
-
+	public Fruits addFruit(Fruits fruit);
 }

@@ -37,4 +37,10 @@ public class FruitServiceImpl implements FruitService {
 		return f;
 	}
 
+	@Override
+	public Fruits addFruit(Fruits fruit) {
+		list.add(fruit);
+		return fruit;
+	}
+
 }
